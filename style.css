@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+h2,h3 {
+    font-weight: normal;
+}
+
+.header span {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+table td {
+    padding: 3px 5px;
+}
+
+.content {
+    padding: 3px 10px;
+    background-color: #ECCFEB;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.content .block-content {
+    margin-bottom: 5px;
+}
+
+.content .block-content textarea {
+    width: 94%;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+.content .flex-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .flex-block .flex-block-item {
+    width: 50%;
+}
+
+.content .flex-block .flex-block-item .detail-content{
+    margin: 0 10px 5px;
+}
+
+.content .block-content div.detail-content {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 12px;
+}
+
+ul li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul.list-has-dot li {
+    padding-left: 30px;
+    position: relative;
+}
+
+ul.list-has-dot li::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.content.bg-blue {
+    background-color: #99D9EA;
+}
+
+button {
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto auto 10px;
+    background: #ED7D31;
+    color: #FFF;
+    display: block;
+}
